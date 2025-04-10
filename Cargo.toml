@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "common",
+    "oobe_engine", 
+    "plugin_example_1"]
+resolver = "2"

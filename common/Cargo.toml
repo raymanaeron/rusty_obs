@@ -1,0 +1,16 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libloading = "0.8"
+tokio = { version = "1", features = ["sync", "rt-multi-thread"] }
+log = "0.4"
+log4rs = "1.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"  
+
+[lib]
+name = "common"
+crate-type = ["lib"]
